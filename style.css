@@ -1,10 +1,3 @@
-/*
-seletor {
-    propriedade : valor;
-}
-    - codigo de cor é no formato RGB
-
-*/
 
 h1 {
     font-size: x-large;
@@ -92,8 +85,3 @@ tr, .fonte, .data {
     margin: 0;
     font-size: small;
 }
-/*
-tr:nth-child(3n) {
-    background-color: pink;
-}
-*/
