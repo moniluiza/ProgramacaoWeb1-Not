@@ -1,0 +1,99 @@
+/*
+seletor {
+    propriedade : valor;
+}
+    - codigo de cor é no formato RGB
+
+*/
+
+h1 {
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-bottom: 3px;
+}
+
+h1, .ministerio, tr, .data, .fonte {
+    font-family: Arial;
+}
+
+.ministerio {
+    color: gray;
+    margin-top: 0px;
+    padding-top: 3px;
+    padding-left: 0.5mm;
+    font-size: large;
+}
+
+.table:nth-child(even) {
+    background-color:rgba(218, 215, 215, 0.73);
+}
+
+tr, .fonte, .data {
+    color: rgba(87, 87, 87, 1);
+}
+
+.cabecalho {
+    padding-top: 1.5mm;
+    padding-bottom: 1.5mm;
+    padding-left: 2mm;
+    padding-right: 2mm;
+    text-align: left;
+}
+.estados {
+    padding-top: 1.5mm;
+    padding-bottom: 1.5mm;
+    padding-left: 1.5mm;
+    padding-right: 5mm;
+    text-align: left;
+}
+.numeros {
+    padding-top: 1.5mm;
+    padding-bottom: 1.5mm;
+    padding-left: 1.5mm;
+    padding-right: 1.5mm;
+    text-align: center;
+}
+.final {
+    background-color:red;
+}
+.brasil {
+    padding-top: 1.5mm;
+    padding-bottom: 1.5mm;
+    padding-left: 1.5mm;
+    padding-right: 5mm;
+    text-align: left;
+    color: white;
+}
+.numerosFinal {
+    padding-top: 1.5mm;
+    padding-bottom: 1.5mm;
+    padding-left: 1.5mm;
+    padding-right: 1.5mm;
+    text-align: center;
+    color: white;
+}
+.fonte {
+    text-align: right;
+    width: 530px;
+    padding-right: 5px;
+    padding-bottom: 2mm;
+    margin-bottom: 2mm;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color:rgba(204, 204, 204, 1);
+    font-size: small;
+}
+
+.data {
+    text-align: right;
+    width: 530px;
+    padding-right: 5px;
+    margin: 0;
+    font-size: small;
+}
+/*
+tr:nth-child(3n) {
+    background-color: pink;
+}
+*/
